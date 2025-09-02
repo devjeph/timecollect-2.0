@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeCollect", "TimeCollect\TimeCollect.csproj", "{68087AB7-234A-429E-9A76-88A7DA135364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeCollect.Core", "TimeCollect.Core\TimeCollect.Core.csproj", "{643140FE-11D7-41EB-B587-FC8FE5A46EDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68087AB7-234A-429E-9A76-88A7DA135364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68087AB7-234A-429E-9A76-88A7DA135364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68087AB7-234A-429E-9A76-88A7DA135364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68087AB7-234A-429E-9A76-88A7DA135364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643140FE-11D7-41EB-B587-FC8FE5A46EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643140FE-11D7-41EB-B587-FC8FE5A46EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643140FE-11D7-41EB-B587-FC8FE5A46EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643140FE-11D7-41EB-B587-FC8FE5A46EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

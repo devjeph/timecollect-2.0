@@ -17,7 +17,10 @@ obj/
 
 ## Sensitive Information
 # Never commit credentials or tokens to your repository
-google_credentials/token.json
+TimeCollect/google_credentials/token.json
+TimeCollect/google_credentials/credentials.json
+TimeCollect/appsettings.json
+
 
 ## Log files
 # Logs are generated at runtime and shouldn't be versioned
