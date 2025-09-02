@@ -1,0 +1,40 @@
+﻿# .gitignore for .NET Core project with JetBrains Rider
+
+## General
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+## IDE-specific files (JetBrains Rider)
+# Covers project settings, user-specific configurations, and caches
+.idea/
+*.sln.DotSettings.user
+
+## .NET Core build outputs
+# These directories contain compiled code and intermediate files
+bin/
+obj/
+
+## Sensitive Information
+# Never commit credentials or tokens to your repository
+google_credentials/token.json
+
+## Log files
+# Logs are generated at runtime and shouldn't be versioned
+logs/
+
+## User-specific files
+# Visual Studio user settings
+*.suo
+*.user
+
+## Build results
+[Bb]uild/
+[Rr]elease/
+[Dd]ebug/
+
+## Other
+# NuGet packages folder
+*.nupkg
+# Tmp files
+*.tmp
